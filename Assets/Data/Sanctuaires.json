@@ -1,0 +1,325 @@
+{
+    "cards": [
+        {
+            "night": false,
+            "color": "G",
+            "ressources": ["P"],
+            "questReq": "",
+            "questRew": 0
+        },
+        {
+            "night": false,
+            "color": "Y",
+            "ressources": [],
+            "questReq": "F",
+            "questRew": 4
+        },
+        {
+            "night": false,
+            "color": "B",
+            "ressources": ["B"],
+            "questReq": "",
+            "questRew": 0
+        },
+        {
+            "night": false,
+            "color": "G",
+            "ressources": ["C"],
+            "questReq": "",
+            "questRew": 0
+        },
+        {
+            "night": false,
+            "color": "N",
+            "ressources": [],
+            "questReq": "",
+            "questRew": 5
+        },
+        {
+            "night": true,
+            "color": "R",
+            "ressources": [],
+            "questReq": "",
+            "questRew": 0
+        },
+        {
+            "night": false,
+            "color": "N",
+            "ressources": ["P"],
+            "questReq": "N",
+            "questRew": 1
+        },
+        {
+            "night": false,
+            "color": "G",
+            "ressources": [],
+            "questReq": "N",
+            "questRew": 1
+        },
+        {
+            "night": false,
+            "color": "N",
+            "ressources": [],
+            "questReq": "V",
+            "questRew": 1
+        },
+        {
+            "night": false,
+            "color": "N",
+            "ressources": [],
+            "questReq": "P",
+            "questRew": 2
+        },
+        {
+            "night": false,
+            "color": "N",
+            "ressources": ["P"],
+            "questReq": "Q",
+            "questRew": 1
+        },
+        {
+            "night": false,
+            "color": "B",
+            "ressources": [],
+            "questReq": "B",
+            "questRew": 1
+        },
+        {
+            "night": false,
+            "color": "N",
+            "ressources": ["C"],
+            "questReq": "Q",
+            "questRew": 1
+        },
+        {
+            "night": false,
+            "color": "N",
+            "ressources": ["P"],
+            "questReq": "P",
+            "questRew": 1
+        },
+        {
+            "night": false,
+            "color": "Y",
+            "ressources": ["Q"],
+            "questReq": "",
+            "questRew": 0
+        },
+        {
+            "night": false,
+            "color": "N",
+            "ressources": ["Q"],
+            "questReq": "F",
+            "questRew": 4
+        },
+        {
+            "night": false,
+            "color": "N",
+            "ressources": [],
+            "questReq": "A",
+            "questRew": 2
+        },
+        {
+            "night": false,
+            "color": "Y",
+            "ressources": [],
+            "questReq": "Q",
+            "questRew": 1
+        },
+        {
+            "night": false,
+            "color": "R",
+            "ressources": ["P"],
+            "questReq": "",
+            "questRew": 0
+        },
+        {
+            "night": false,
+            "color": "N",
+            "ressources": [],
+            "questReq": "D",
+            "questRew": 1
+        },
+        {
+            "night": false,
+            "color": "G",
+            "ressources": ["Q"],
+            "questReq": "",
+            "questRew": 0
+        },
+        {
+            "night": false,
+            "color": "R",
+            "ressources": ["C"],
+            "questReq": "",
+            "questRew": 0
+        },
+        {
+            "night": false,
+            "color": "G",
+            "ressources": [],
+            "questReq": "G",
+            "questRew": 1
+        },
+        {
+            "night": false,
+            "color": "N",
+            "ressources": [],
+            "questReq": "C",
+            "questRew": 2
+        },
+        {
+            "night": true,
+            "color": "N",
+            "ressources": ["P"],
+            "questReq": "",
+            "questRew": 0
+        },
+        {
+            "night": false,
+            "color": "N",
+            "ressources": ["P", "Q"],
+            "questReq": "",
+            "questRew": 0
+        },
+        {
+            "night": false,
+            "color": "N",
+            "ressources": [],
+            "questReq": "T",
+            "questRew": 1
+        },
+        {
+            "night": false,
+            "color": "Y",
+            "ressources": ["P"],
+            "questReq": "",
+            "questRew": 0
+        },
+        {
+            "night": false,
+            "color": "N",
+            "ressources": ["Q"],
+            "questReq": "Q",
+            "questRew": 1
+        },
+        {
+            "night": false,
+            "color": "N",
+            "ressources": ["A", "Q"],
+            "questReq": "",
+            "questRew": 0
+        },
+        {
+            "night": true,
+            "color": "N",
+            "ressources": ["C"],
+            "questReq": "",
+            "questRew": 0
+        },
+        {
+            "night": false,
+            "color": "Y",
+            "ressources": [],
+            "questReq": "Y",
+            "questRew": 1
+        },
+        {
+            "night": true,
+            "color": "N",
+            "ressources": ["A"],
+            "questReq": "",
+            "questRew": 0
+        },
+        {
+            "night": false,
+            "color": "N",
+            "ressources": ["A"],
+            "questReq": "A",
+            "questRew": 1
+        },
+        {
+            "night": false,
+            "color": "N",
+            "ressources": [],
+            "questReq": "H",
+            "questRew": 1
+        },
+        {
+            "night": false,
+            "color": "R",
+            "ressources": [],
+            "questReq": "R",
+            "questRew": 1
+        },
+        {
+            "night": false,
+            "color": "B",
+            "ressources": ["P"],
+            "questReq": "",
+            "questRew": 0
+        },
+        {
+            "night": false,
+            "color": "N",
+            "ressources": ["C"],
+            "questReq": "C",
+            "questRew": 1
+        },
+        {
+            "night": false,
+            "color": "N",
+            "ressources": [],
+            "questReq": "G",
+            "questRew": 1
+        },
+        {
+            "night": false,
+            "color": "B",
+            "ressources": ["C"],
+            "questReq": "",
+            "questRew": 0
+        },
+        {
+            "night": false,
+            "color": "B",
+            "ressources": ["A"],
+            "questReq": "",
+            "questRew": 0
+        },
+        {
+            "night": false,
+            "color": "R",
+            "ressources": ["A"],
+            "questReq": "",
+            "questRew": 0
+        },
+        {
+            "night": false,
+            "color": "N",
+            "ressources": ["C", "Q"],
+            "questReq": "",
+            "questRew": 0
+        },
+        {
+            "night": false,
+            "color": "N",
+            "ressources": [],
+            "questReq": "Q",
+            "questRew": 2
+        },
+        {
+            "night": false,
+            "color": "N",
+            "ressources": [],
+            "questReq": "V",
+            "questRew": 1
+        }
+    ]
+}
+// V = bleu et vert
+// F = les 4 couleurs
+// D = bleu et rouge
+// T = yellow red
+// H = bleu jaune
+// G = vert et rouge

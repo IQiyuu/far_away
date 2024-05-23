@@ -1,0 +1,617 @@
+{
+    "cards": [
+        {
+            "day": false,
+            "timeExplo": 22,
+            "color": "G",
+            "ressources": ["Q"],
+            "questCond": [],
+            "questReq": "Q",
+            "questRew": 1
+        },
+        {
+            "day": false,
+            "timeExplo": 31,
+            "color": "Y",
+            "ressources": [],
+            "questCond": [],
+            "questReq": "T",
+            "questRew": 1
+        },
+        {
+            "day": false,
+            "timeExplo": 32,
+            "color": "R",
+            "ressources": ["C", "P"],
+            "questCond": ["P", "P", "P"],
+            "questReq": "",
+            "questRew": 7
+        },
+        {
+            "day": true,
+            "timeExplo": 42,
+            "color": "Y",
+            "ressources": [],
+            "questCond": ["P", "C"],
+            "questReq": "G",
+            "questRew": 2
+        },
+        {
+            "day": false,
+            "timeExplo": 27,
+            "color": "Y",
+            "ressources": [],
+            "questCond": [],
+            "questReq": "H",
+            "questRew": 1
+        },
+        {
+            "day": false,
+            "timeExplo": 24,
+            "color": "B",
+            "ressources": ["P"],
+            "questCond": ["C"],
+            "questReq": "N",
+            "questRew": 2
+        },
+        {
+            "day": true,
+            "timeExplo": 1,
+            "color": "R",
+            "ressources": ["C", "P"],
+            "questCond": [],
+            "questReq": "",
+            "questRew": 0
+        },
+        {
+            "day": true,
+            "timeExplo": 49,
+            "color": "B",
+            "ressources": ["Q"],
+            "questCond": ["P", "P", "C"],
+            "questReq": "",
+            "questRew": 12
+        },
+        {
+            "day": true,
+            "timeExplo": 65,
+            "color": "Y",
+            "ressources": ["Q"],
+            "questCond": ["A", "A", "A"],
+            "questReq": "G",
+            "questRew": 3
+        },
+        {
+            "day": true,
+            "timeExplo": 53,
+            "color": "Y",
+            "ressources": ["C"],
+            "questCond": ["A", "A"],
+            "questReq": "R",
+            "questRew": 4
+        },
+        {
+            "day": true,
+            "timeExplo": 47,
+            "color": "Y",
+            "ressources": [],
+            "questCond": ["A", "C"],
+            "questReq": "T",
+            "questRew": 2
+        },
+        {
+            "day": true,
+            "timeExplo": 60,
+            "color": "B",
+            "ressources": ["Q"],
+            "questCond": ["P", "P", "C", "C"],
+            "questReq": "",
+            "questRew": 16
+        },
+        {
+            "day": false,
+            "timeExplo": 21,
+            "color": "B",
+            "ressources": [],
+            "questCond": ["P", "P"],
+            "questReq": "",
+            "questRew": 8
+        },
+        {
+            "day": false,
+            "timeExplo": 35,
+            "color": "Y",
+            "ressources": ["C"],
+            "questCond": [],
+            "questReq": "F",
+            "questRew": 10
+        },
+        {
+            "day": true,
+            "timeExplo": 55,
+            "color": "B",
+            "ressources": ["Q", "P"],
+            "questCond": ["C", "A", "A"],
+            "questReq": "P",
+            "questRew": 3
+        },
+        {
+            "day": true,
+            "timeExplo": 67,
+            "color": "G",
+            "ressources": ["Q"],
+            "questCond": ["C", "A", "C", "A"],
+            "questReq": "",
+            "questRew": 19
+        },
+        {
+            "day": true,
+            "timeExplo": 16,
+            "color": "R",
+            "ressources": ["C"],
+            "questCond": [],
+            "questReq": "C",
+            "questRew": 2
+        },
+        {
+            "day": false,
+            "timeExplo": 38,
+            "color": "G",
+            "ressources": ["P"],
+            "questCond": ["C", "A"],
+            "questReq": "Q",
+            "questRew": 3
+        },
+        {
+            "day": true,
+            "timeExplo": 48,
+            "color": "R",
+            "ressources": ["C"],
+            "questCond": [],
+            "questReq": "P",
+            "questRew": 3
+        },
+        {
+            "day": true,
+            "timeExplo": 14,
+            "color": "R",
+            "ressources": ["A"],
+            "questCond": [],
+            "questReq": "N",
+            "questRew": 2
+        },
+        {
+            "day": true,
+            "timeExplo": 59,
+            "color": "Y",
+            "ressources": ["Q"],
+            "questCond": ["C", "C", "C", "P"],
+            "questReq": "T",
+            "questRew": 3
+        },
+        {
+            "day": true,
+            "timeExplo": 6,
+            "color": "B",
+            "ressources": ["Q", "P"],
+            "questCond": [],
+            "questReq": "",
+            "questRew": 0
+        },
+        {
+            "day": true,
+            "timeExplo": 19,
+            "color": "R",
+            "ressources": ["A"],
+            "questCond": [],
+            "questReq": "A",
+            "questRew": 2
+        },
+        {
+            "day": true,
+            "timeExplo": 46,
+            "color": "B",
+            "ressources": ["Q"],
+            "questCond": ["P", "P", "C"],
+            "questReq": "",
+            "questRew": 10
+        },
+        {
+            "day": true,
+            "timeExplo": 64,
+            "color": "B",
+            "ressources": ["Q"],
+            "questCond": ["P", "P", "A", "A"],
+            "questReq": "",
+            "questRew": 18
+        },
+        {
+            "day": true,
+            "timeExplo": 17,
+            "color": "B",
+            "ressources": ["P"],
+            "questCond": ["C", "C"],
+            "questReq": "P",
+            "questRew": 3
+        },
+        {
+            "day": true,
+            "timeExplo": 3,
+            "color": "G",
+            "ressources": [],
+            "questCond": [],
+            "questReq": "",
+            "questRew": 4
+        },
+        {
+            "day": true,
+            "timeExplo": 44,
+            "color": "Y",
+            "ressources": [""],
+            "questCond": ["P", "A"],
+            "questReq": "H",
+            "questRew": 2
+        },
+        {
+            "day": true,
+            "timeExplo": 66,
+            "color": "B",
+            "ressources": [],
+            "questCond": ["P", "P", "P", "P"],
+            "questReq": "",
+            "questRew": 20
+        },
+        {
+            "day": true,
+            "timeExplo": 43,
+            "color": "B",
+            "ressources": ["P"],
+            "questCond": [],
+            "questReq": "F",
+            "questRew": 10
+        },
+        {
+            "day": true,
+            "timeExplo": 62,
+            "color": "Y",
+            "ressources": ["Q"],
+            "questCond": ["A", "A", "A"],
+            "questReq": "H",
+            "questRew": 3
+        },
+        {
+            "day": false,
+            "timeExplo": 25,
+            "color": "Y",
+            "ressources": [],
+            "questCond": [],
+            "questReq": "G",
+            "questRew": 1
+        },
+        {
+            "day": true,
+            "timeExplo": 15,
+            "color": "G",
+            "ressources": ["Q"],
+            "questCond": [],
+            "questReq": "C",
+            "questRew": 2
+        },
+        {
+            "day": true,
+            "timeExplo": 63,
+            "color": "G",
+            "ressources": ["Q"],
+            "questCond": ["C", "C", "A"],
+            "questReq": "",
+            "questRew": 15
+        },
+        {
+            "day": true,
+            "timeExplo": 45,
+            "color": "G",
+            "ressources": ["P"],
+            "questCond": ["C", "C", "C"],
+            "questReq": "",
+            "questRew": 13
+        },
+        {
+            "day": true,
+            "timeExplo": 8,
+            "color": "G",
+            "ressources": ["Q", "C"],
+            "questCond": [],
+            "questReq": "",
+            "questRew": 0
+        },
+        {
+            "day": false,
+            "timeExplo": 36,
+            "color": "R",
+            "ressources": [""],
+            "questCond": ["C", "C"],
+            "questReq": "A",
+            "questRew": 4
+        },
+        {
+            "day": true,
+            "timeExplo": 52,
+            "color": "R",
+            "ressources": [],
+            "questCond": ["P", "P", "P"],
+            "questReq": "C",
+            "questRew": 4
+        },
+        {
+            "day": true,
+            "timeExplo": 4,
+
+            "color": "R",
+            "ressources": ["A", "P"],
+            "questCond": [],
+            "questReq": "",
+            "questRew": 0
+        },
+        {
+            "day": true,
+            "timeExplo": 7,
+            "color": "R",
+            "ressources": ["A", "C"],
+            "questCond": [],
+            "questReq": "",
+            "questRew": 0
+        },
+        {
+            "day": false,
+            "timeExplo": 28,
+            "color": "R",
+            "ressources": ["P"],
+            "questCond": [],
+            "questReq": "C",
+            "questRew": 3
+        },
+        {
+            "day": true,
+            "timeExplo": 61,
+            "color": "G",
+            "ressources": ["A"],
+            "questCond": ["C", "C", "C", "C"],
+            "questReq": "",
+            "questRew": 17
+        },
+        {
+            "day": true,
+            "timeExplo": 2,
+            "color": "B",
+            "ressources": ["P", "P"],
+            "questCond": [],
+            "questReq": "",
+            "questRew": 0
+        },
+        {
+            "day": true,
+            "timeExplo": 56,
+            "color": "Y",
+            "ressources": ["A"],
+            "questCond": ["C", "C", "P"],
+            "questReq": "B",
+            "questRew": 4
+        },
+        {
+            "day": true,
+            "timeExplo": 13,
+            "color": "B",
+            "ressources": [],
+            "questCond": [],
+            "questReq": "P",
+            "questRew": 2
+        },
+        {
+            "day": true,
+            "timeExplo": 10,
+            "color": "R",
+            "ressources": [],
+            "questCond": [],
+            "questReq": "N",
+            "questRew": 3
+        },
+        {
+            "day": true,
+            "timeExplo": 12,
+            "color": "Y",
+            "ressources": ["Q", "A"],
+            "questCond": [],
+            "questReq": "",
+            "questRew": 0
+        },
+        {
+            "day": false,
+            "timeExplo": 34,
+            "color": "G",
+            "ressources": ["C"],
+            "questCond": ["P", "P"],
+            "questReq": "C",
+            "questRew": 3
+        },
+        {
+            "day": false,
+            "timeExplo": 40,
+            "color": "B",
+            "ressources": [],
+            "questCond": ["A", "C", "P"],
+            "questReq": "N",
+            "questRew": 3
+        },
+        {
+            "day": true,
+            "timeExplo": 11,
+            "color": "G",
+            "ressources": [],
+            "questCond": [],
+            "questReq": "Q",
+            "questRew": 2
+        },
+        {
+            "day": true,
+            "timeExplo": 57,
+            "color": "R",
+            "ressources": [],
+            "questCond": ["A", "A", "A"],
+            "questReq": "P",
+            "questRew": 4
+        },
+        {
+            "day": true,
+            "timeExplo": 9,
+            "color": "B",            
+            "ressources": [],
+            "questCond": [],
+            "questReq": "",
+            "questRew": 5
+        },
+        {
+            "day": false,
+            "timeExplo": 33,
+            "color": "Y",
+            "ressources": ["Q"],
+            "questCond": [],
+            "questReq": "A",
+            "questRew": 3
+        },
+        {
+            "day": false,
+            "timeExplo": 39,
+            "color": "R",
+            "ressources": ["A", "P"],
+            "questCond": ["C", "C"],
+            "questReq": "",
+            "questRew": 9
+        },
+        {
+            "day": false,
+            "timeExplo": 26,
+            "color": "R",
+            "ressources": ["C"],
+            "questCond": [],
+            "questReq": "A",
+            "questRew": 3
+        },
+        {
+            "day": false,
+            "timeExplo": 20,
+            "color": "G",
+            "ressources": ["Q"],
+            "questCond": ["P"],
+            "questReq": "N",
+            "questRew": 2
+        },
+        {
+            "day": true,
+            "timeExplo": 54,
+            "color": "G",
+            "ressources": ["C"],
+            "questCond": ["A", "A"],
+            "questReq": "Q",
+            "questRew": 4
+        },
+        {
+            "day": true,
+            "timeExplo": 41,
+            "color": "G",
+            "ressources": ["A"],
+            "questCond": ["C", "P", "P"],
+            "questReq": "N",
+            "questRew": 4
+        },
+        {
+            "day": false,
+            "timeExplo": 29,
+            "color": "Y",
+            "ressources": ["A"],
+            "questCond": [],
+            "questReq": "A",
+            "questRew": 2
+        },
+        {
+            "day": true,
+            "timeExplo": 58,
+            "color": "G",
+            "ressources": ["Q"],
+            "questCond": ["C", "C", "C"],
+            "questReq": "Q",
+            "questRew": 3
+        },
+        {
+            "day": true,
+            "timeExplo": 68,
+            "color": "B",
+            "ressources": [],
+            "questCond": ["P", "P", "P", "P", "P"],
+            "questReq": "",
+            "questRew": 24
+        },
+        {
+            "day": true,
+            "timeExplo": 51,
+            "color": "B",
+            "ressources": ["P"],
+            "questCond": ["P", "P", "P", "P"],
+            "questReq": "",
+            "questRew": 14
+        },
+        {
+            "day": true,
+            "timeExplo": 50,
+            "color": "Y",
+            "ressources": ["P"],
+            "questCond": ["A", "A"],
+            "questReq": "G",
+            "questRew": 4
+        },
+        {
+            "day": true,
+            "timeExplo": 37,
+            "color": "Y",
+            "ressources": [],
+            "questCond": ["A"],
+            "questReq": "N",
+            "questRew": 3
+        },
+        {
+            "day": true,
+            "timeExplo": 5,
+            "color": "G",            
+            "ressources": ["C"],
+            "questCond": [],
+            "questReq": "",
+            "questRew": 2
+        },
+        {
+            "day": true,
+            "timeExplo": 18,
+            "color": "G",
+            "ressources": ["C"],
+            "questCond": [],
+            "questReq": "F",
+            "questRew": 10
+        },
+        {
+            "day": false,
+            "timeExplo": 23,
+            "color": "R",
+            "ressources": ["C", "P"],
+            "questCond": [],
+            "questReq": "F",
+            "questRew": 10
+        },
+        {
+            "day": false,
+            "timeExplo": 30,
+            "color": "R",
+            "ressources": ["P"],
+            "questCond": [],
+            "questReq": "P",
+            "questRew": 2
+        }
+    ]
+}
