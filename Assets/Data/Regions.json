@@ -6,7 +6,7 @@
             "color": "G",
             "ressources": ["Q"],
             "questCond": [],
-            "questReq": "Q",
+            "questReq": ["Q"],
             "questRew": 1
         },
         {
@@ -15,7 +15,7 @@
             "color": "Y",
             "ressources": [],
             "questCond": [],
-            "questReq": "T",
+            "questReq": ["Y", "R"],
             "questRew": 1
         },
         {
@@ -24,7 +24,7 @@
             "color": "R",
             "ressources": ["C", "P"],
             "questCond": ["P", "P", "P"],
-            "questReq": "",
+            "questReq": [],
             "questRew": 7
         },
         {
@@ -33,7 +33,7 @@
             "color": "Y",
             "ressources": [],
             "questCond": ["P", "C"],
-            "questReq": "G",
+            "questReq": ["G", "Y"],
             "questRew": 2
         },
         {
@@ -42,7 +42,7 @@
             "color": "Y",
             "ressources": [],
             "questCond": [],
-            "questReq": "H",
+            "questReq": ["Y", "B"],
             "questRew": 1
         },
         {
@@ -51,7 +51,7 @@
             "color": "B",
             "ressources": ["P"],
             "questCond": ["C"],
-            "questReq": "N",
+            "questReq": ["N"],
             "questRew": 2
         },
         {
@@ -60,7 +60,7 @@
             "color": "R",
             "ressources": ["C", "P"],
             "questCond": [],
-            "questReq": "",
+            "questReq": [],
             "questRew": 0
         },
         {
@@ -69,7 +69,7 @@
             "color": "B",
             "ressources": ["Q"],
             "questCond": ["P", "P", "C"],
-            "questReq": "",
+            "questReq": [],
             "questRew": 12
         },
         {
@@ -78,7 +78,7 @@
             "color": "Y",
             "ressources": ["Q"],
             "questCond": ["A", "A", "A"],
-            "questReq": "G",
+            "questReq": ["Y", "G"],
             "questRew": 3
         },
         {
@@ -87,7 +87,7 @@
             "color": "Y",
             "ressources": ["C"],
             "questCond": ["A", "A"],
-            "questReq": "R",
+            "questReq": ["R"],
             "questRew": 4
         },
         {
@@ -96,7 +96,7 @@
             "color": "Y",
             "ressources": [],
             "questCond": ["A", "C"],
-            "questReq": "T",
+            "questReq": ["Y", "R"],
             "questRew": 2
         },
         {
@@ -105,7 +105,7 @@
             "color": "B",
             "ressources": ["Q"],
             "questCond": ["P", "P", "C", "C"],
-            "questReq": "",
+            "questReq": [],
             "questRew": 16
         },
         {
@@ -114,7 +114,7 @@
             "color": "B",
             "ressources": [],
             "questCond": ["P", "P"],
-            "questReq": "",
+            "questReq": [],
             "questRew": 8
         },
         {
@@ -123,7 +123,7 @@
             "color": "Y",
             "ressources": ["C"],
             "questCond": [],
-            "questReq": "F",
+            "questReq": ["R", "G", "B", "Y"],
             "questRew": 10
         },
         {
@@ -132,7 +132,7 @@
             "color": "B",
             "ressources": ["Q", "P"],
             "questCond": ["C", "A", "A"],
-            "questReq": "P",
+            "questReq": ["Y", "B"],
             "questRew": 3
         },
         {
@@ -141,7 +141,7 @@
             "color": "G",
             "ressources": ["Q"],
             "questCond": ["C", "A", "C", "A"],
-            "questReq": "",
+            "questReq": [],
             "questRew": 19
         },
         {
@@ -150,7 +150,7 @@
             "color": "R",
             "ressources": ["C"],
             "questCond": [],
-            "questReq": "C",
+            "questReq": ["C"],
             "questRew": 2
         },
         {
@@ -159,7 +159,7 @@
             "color": "G",
             "ressources": ["P"],
             "questCond": ["C", "A"],
-            "questReq": "Q",
+            "questReq": ["Q"],
             "questRew": 3
         },
         {
@@ -168,7 +168,7 @@
             "color": "R",
             "ressources": ["C"],
             "questCond": [],
-            "questReq": "P",
+            "questReq": ["P"],
             "questRew": 3
         },
         {
@@ -177,7 +177,7 @@
             "color": "R",
             "ressources": ["A"],
             "questCond": [],
-            "questReq": "N",
+            "questReq": ["N"],
             "questRew": 2
         },
         {
@@ -186,7 +186,7 @@
             "color": "Y",
             "ressources": ["Q"],
             "questCond": ["C", "C", "C", "P"],
-            "questReq": "T",
+            "questReq": ["Y", "R"],
             "questRew": 3
         },
         {
@@ -195,7 +195,7 @@
             "color": "B",
             "ressources": ["Q", "P"],
             "questCond": [],
-            "questReq": "",
+            "questReq": [],
             "questRew": 0
         },
         {
@@ -204,7 +204,7 @@
             "color": "R",
             "ressources": ["A"],
             "questCond": [],
-            "questReq": "A",
+            "questReq": ["A"],
             "questRew": 2
         },
         {
@@ -213,7 +213,7 @@
             "color": "B",
             "ressources": ["Q"],
             "questCond": ["P", "P", "C"],
-            "questReq": "",
+            "questReq": [],
             "questRew": 10
         },
         {
@@ -222,7 +222,7 @@
             "color": "B",
             "ressources": ["Q"],
             "questCond": ["P", "P", "A", "A"],
-            "questReq": "",
+            "questReq": [],
             "questRew": 18
         },
         {
@@ -231,7 +231,7 @@
             "color": "B",
             "ressources": ["P"],
             "questCond": ["C", "C"],
-            "questReq": "P",
+            "questReq": ["P"],
             "questRew": 3
         },
         {
@@ -240,7 +240,7 @@
             "color": "G",
             "ressources": [],
             "questCond": [],
-            "questReq": "",
+            "questReq": [],
             "questRew": 4
         },
         {
@@ -249,7 +249,7 @@
             "color": "Y",
             "ressources": [""],
             "questCond": ["P", "A"],
-            "questReq": "H",
+            "questReq": ["Y", "B"],
             "questRew": 2
         },
         {
@@ -258,7 +258,7 @@
             "color": "B",
             "ressources": [],
             "questCond": ["P", "P", "P", "P"],
-            "questReq": "",
+            "questReq": [],
             "questRew": 20
         },
         {
@@ -267,7 +267,7 @@
             "color": "B",
             "ressources": ["P"],
             "questCond": [],
-            "questReq": "F",
+            "questReq": ["Y", "B", "G", "R"],
             "questRew": 10
         },
         {
@@ -276,7 +276,7 @@
             "color": "Y",
             "ressources": ["Q"],
             "questCond": ["A", "A", "A"],
-            "questReq": "H",
+            "questReq": ["Y", "B"],
             "questRew": 3
         },
         {
@@ -285,7 +285,7 @@
             "color": "Y",
             "ressources": [],
             "questCond": [],
-            "questReq": "G",
+            "questReq": ["G"],
             "questRew": 1
         },
         {
@@ -294,7 +294,7 @@
             "color": "G",
             "ressources": ["Q"],
             "questCond": [],
-            "questReq": "C",
+            "questReq": ["C"],
             "questRew": 2
         },
         {
@@ -303,7 +303,7 @@
             "color": "G",
             "ressources": ["Q"],
             "questCond": ["C", "C", "A"],
-            "questReq": "",
+            "questReq": [],
             "questRew": 15
         },
         {
@@ -312,7 +312,7 @@
             "color": "G",
             "ressources": ["P"],
             "questCond": ["C", "C", "C"],
-            "questReq": "",
+            "questReq": [],
             "questRew": 13
         },
         {
@@ -321,7 +321,7 @@
             "color": "G",
             "ressources": ["Q", "C"],
             "questCond": [],
-            "questReq": "",
+            "questReq": [],
             "questRew": 0
         },
         {
@@ -330,7 +330,7 @@
             "color": "R",
             "ressources": [""],
             "questCond": ["C", "C"],
-            "questReq": "A",
+            "questReq": ["A"],
             "questRew": 4
         },
         {
@@ -339,7 +339,7 @@
             "color": "R",
             "ressources": [],
             "questCond": ["P", "P", "P"],
-            "questReq": "C",
+            "questReq": ["C"],
             "questRew": 4
         },
         {
@@ -349,7 +349,7 @@
             "color": "R",
             "ressources": ["A", "P"],
             "questCond": [],
-            "questReq": "",
+            "questReq": [],
             "questRew": 0
         },
         {
@@ -358,7 +358,7 @@
             "color": "R",
             "ressources": ["A", "C"],
             "questCond": [],
-            "questReq": "",
+            "questReq": [],
             "questRew": 0
         },
         {
@@ -367,7 +367,7 @@
             "color": "R",
             "ressources": ["P"],
             "questCond": [],
-            "questReq": "C",
+            "questReq": ["C"],
             "questRew": 3
         },
         {
@@ -376,7 +376,7 @@
             "color": "G",
             "ressources": ["A"],
             "questCond": ["C", "C", "C", "C"],
-            "questReq": "",
+            "questReq": [],
             "questRew": 17
         },
         {
@@ -385,7 +385,7 @@
             "color": "B",
             "ressources": ["P", "P"],
             "questCond": [],
-            "questReq": "",
+            "questReq": [],
             "questRew": 0
         },
         {
@@ -394,7 +394,7 @@
             "color": "Y",
             "ressources": ["A"],
             "questCond": ["C", "C", "P"],
-            "questReq": "B",
+            "questReq": ["B"],
             "questRew": 4
         },
         {
@@ -403,7 +403,7 @@
             "color": "B",
             "ressources": [],
             "questCond": [],
-            "questReq": "P",
+            "questReq": ["P"],
             "questRew": 2
         },
         {
@@ -412,7 +412,7 @@
             "color": "R",
             "ressources": [],
             "questCond": [],
-            "questReq": "N",
+            "questReq": ["N"],
             "questRew": 3
         },
         {
@@ -421,7 +421,7 @@
             "color": "Y",
             "ressources": ["Q", "A"],
             "questCond": [],
-            "questReq": "",
+            "questReq": [],
             "questRew": 0
         },
         {
@@ -430,7 +430,7 @@
             "color": "G",
             "ressources": ["C"],
             "questCond": ["P", "P"],
-            "questReq": "C",
+            "questReq": ["C"],
             "questRew": 3
         },
         {
@@ -439,7 +439,7 @@
             "color": "B",
             "ressources": [],
             "questCond": ["A", "C", "P"],
-            "questReq": "N",
+            "questReq": ["N"],
             "questRew": 3
         },
         {
@@ -448,7 +448,7 @@
             "color": "G",
             "ressources": [],
             "questCond": [],
-            "questReq": "Q",
+            "questReq": ["Q"],
             "questRew": 2
         },
         {
@@ -457,7 +457,7 @@
             "color": "R",
             "ressources": [],
             "questCond": ["A", "A", "A"],
-            "questReq": "P",
+            "questReq": ["P"],
             "questRew": 4
         },
         {
@@ -466,7 +466,7 @@
             "color": "B",            
             "ressources": [],
             "questCond": [],
-            "questReq": "",
+            "questReq": [],
             "questRew": 5
         },
         {
@@ -475,7 +475,7 @@
             "color": "Y",
             "ressources": ["Q"],
             "questCond": [],
-            "questReq": "A",
+            "questReq": ["A"],
             "questRew": 3
         },
         {
@@ -484,7 +484,7 @@
             "color": "R",
             "ressources": ["A", "P"],
             "questCond": ["C", "C"],
-            "questReq": "",
+            "questReq": [],
             "questRew": 9
         },
         {
@@ -493,7 +493,7 @@
             "color": "R",
             "ressources": ["C"],
             "questCond": [],
-            "questReq": "A",
+            "questReq": ["A"],
             "questRew": 3
         },
         {
@@ -502,7 +502,7 @@
             "color": "G",
             "ressources": ["Q"],
             "questCond": ["P"],
-            "questReq": "N",
+            "questReq": ["N"],
             "questRew": 2
         },
         {
@@ -511,7 +511,7 @@
             "color": "G",
             "ressources": ["C"],
             "questCond": ["A", "A"],
-            "questReq": "Q",
+            "questReq": ["Q"],
             "questRew": 4
         },
         {
@@ -520,7 +520,7 @@
             "color": "G",
             "ressources": ["A"],
             "questCond": ["C", "P", "P"],
-            "questReq": "N",
+            "questReq": ["N"],
             "questRew": 4
         },
         {
@@ -529,7 +529,7 @@
             "color": "Y",
             "ressources": ["A"],
             "questCond": [],
-            "questReq": "A",
+            "questReq": ["A"],
             "questRew": 2
         },
         {
@@ -538,7 +538,7 @@
             "color": "G",
             "ressources": ["Q"],
             "questCond": ["C", "C", "C"],
-            "questReq": "Q",
+            "questReq": ["Q"],
             "questRew": 3
         },
         {
@@ -547,7 +547,7 @@
             "color": "B",
             "ressources": [],
             "questCond": ["P", "P", "P", "P", "P"],
-            "questReq": "",
+            "questReq": [],
             "questRew": 24
         },
         {
@@ -556,7 +556,7 @@
             "color": "B",
             "ressources": ["P"],
             "questCond": ["P", "P", "P", "P"],
-            "questReq": "",
+            "questReq": [],
             "questRew": 14
         },
         {
@@ -565,7 +565,7 @@
             "color": "Y",
             "ressources": ["P"],
             "questCond": ["A", "A"],
-            "questReq": "G",
+            "questReq": ["G"],
             "questRew": 4
         },
         {
@@ -574,7 +574,7 @@
             "color": "Y",
             "ressources": [],
             "questCond": ["A"],
-            "questReq": "N",
+            "questReq": ["N"],
             "questRew": 3
         },
         {
@@ -583,7 +583,7 @@
             "color": "G",            
             "ressources": ["C"],
             "questCond": [],
-            "questReq": "",
+            "questReq": [],
             "questRew": 2
         },
         {
@@ -592,7 +592,7 @@
             "color": "G",
             "ressources": ["C"],
             "questCond": [],
-            "questReq": "F",
+            "questReq": ["R", "G", "B", "Y"],
             "questRew": 10
         },
         {
@@ -601,7 +601,7 @@
             "color": "R",
             "ressources": ["C", "P"],
             "questCond": [],
-            "questReq": "F",
+            "questReq": ["R", "G", "B", "Y"],
             "questRew": 10
         },
         {
@@ -610,7 +610,7 @@
             "color": "R",
             "ressources": ["P"],
             "questCond": [],
-            "questReq": "P",
+            "questReq": [],
             "questRew": 2
         }
     ]
