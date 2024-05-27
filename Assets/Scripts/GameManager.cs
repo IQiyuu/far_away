@@ -5,8 +5,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     int             _players;
-    List<Region>    _pioche;
-    List<Region>    _board;
+    [SerializeField] RegionDeck       _pioche;
+    List<RegionData>                _board;
     List<Sanctuary> _sanct;
 
     [SerializeField] GameObject _regionPrefab;
@@ -14,13 +14,12 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _pioche = new List<Region>();
-        _board = new List<Region>();
         _players = 1;
-        Region tmp2 = new Region();
-        tmp2.setColor('G');
-        tmp2.setDay(true);
-        _pioche.Add(tmp2);
+
+        _board = new List<RegionData>();
+
+        _pioche.LoadRegions();
+        //_pioche.ShuffleDeck();            
         refillBoard();
     }
 
@@ -33,23 +32,23 @@ public class GameManager : MonoBehaviour
     void    refillBoard() {
         _board.Clear();
         for(int i = 0; i < _players; i++) {
-            Debug.Log("OUI");
-            _board.Add(_pioche[0]);
-            _pioche.RemoveAt(0);
+            RegionData tmp = _pioche.DrawRegion();
+            Debug.Log(tmp.timeExplo);
+            _board.Add(tmp);
             GameObject nRegion = Instantiate(_regionPrefab);
-            Region tmp = nRegion.GetComponent<Region>();
-            tmp.changeDayNight(_board[0].getDay());
-            tmp.changeColor(_board[0].getColor());
+            RegionController rTmp = nRegion.GetComponent<RegionController>();
+            rTmp.regionData = tmp;
+            rTmp.InitializeVisu();
         }
     }
 
-    List<Sanctuary> getRewards(int n) {
-        List<Sanctuary> ret = new List<Sanctuary>();
+    // List<Sanctuary> getRewards(int n) {
+    //     List<Sanctuary> ret = new List<Sanctuary>();
 
-        for (int i = 0; i < n; i++) {
-            ret.Add(_sanct[0]);
-            _sanct.RemoveAt(0);
-        }
-        return ret;
-    }
+    //     for (int i = 0; i < n; i++) {
+    //         ret.Add(_sanct[0]);
+    //         _sanct.RemoveAt(0);
+    //     }
+    //     return ret;
+    // }
 }

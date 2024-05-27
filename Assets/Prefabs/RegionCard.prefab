@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2283285704316754601}
-  - component: {fileID: 348307750064849841}
+  - component: {fileID: 6399770718660321889}
   m_Layer: 0
   m_Name: RegionCard
   m_TagString: Untagged
@@ -34,7 +34,7 @@ Transform:
   - {fileID: 3456740507335845358}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &348307750064849841
+--- !u!114 &6399770718660321889
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -43,11 +43,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 2577214751400305577}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14a7cb324c60b384a949fc66672900fb, type: 3}
+  m_Script: {fileID: 11500000, guid: f0d36205a4cf48f7486d8448342ab4db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _cardColor: {fileID: 4541001666179347528}
+  regionData:
+    color: 55
+    ressources: 
+    exploTime: 0
+    day: 0
+    questReq: 
+    questCond: 
+    questRew: 0
   _dayNightColor: {fileID: 9078007280797612209}
+  _cardColor: {fileID: 2776067272434955105}
+  _exploTime: {fileID: 2482473201360052082}
 --- !u!1 &3249717680249941730
 GameObject:
   m_ObjectHideFlags: 0
